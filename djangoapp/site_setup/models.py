@@ -1,10 +1,8 @@
 from django.db import models
-
-# Create your models here.
-
 from django.db import models
 from utils.model_validator import validate_png
 from utils.images import resize_image
+
 
 class MenuLink(models.Model):
     class Meta:
