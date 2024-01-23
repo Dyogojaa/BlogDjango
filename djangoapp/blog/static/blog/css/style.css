@@ -482,3 +482,12 @@
   .card-action-link:hover {
     text-decoration: none;
   }
+
+  .CodeMirror {
+    height: auto !important;
+    font-size: var(--fs-smlr) !important;
+  }
+
+  .mt-base {
+    margin-top: var(--spacing-base);
+  }
